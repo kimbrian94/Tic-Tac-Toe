@@ -15,6 +15,9 @@
 		A514CE3B249BF3AE00CC651D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A514CE39249BF3AE00CC651D /* LaunchScreen.storyboard */; };
 		A514CE46249BF3AE00CC651D /* Tic_Tac_ToeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A514CE45249BF3AE00CC651D /* Tic_Tac_ToeTests.swift */; };
 		A514CE51249BF3AE00CC651D /* Tic_Tac_ToeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A514CE50249BF3AE00CC651D /* Tic_Tac_ToeUITests.swift */; };
+		A561365A24F6DE5400319DD3 /* board.png in Resources */ = {isa = PBXBuildFile; fileRef = A561365724F6DE5400319DD3 /* board.png */; };
+		A561365B24F6DE5400319DD3 /* cross.png in Resources */ = {isa = PBXBuildFile; fileRef = A561365824F6DE5400319DD3 /* cross.png */; };
+		A561365C24F6DE5400319DD3 /* nought.png in Resources */ = {isa = PBXBuildFile; fileRef = A561365924F6DE5400319DD3 /* nought.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,9 @@
 		A514CE4C249BF3AE00CC651D /* Tic Tac ToeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tic Tac ToeUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A514CE50249BF3AE00CC651D /* Tic_Tac_ToeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tic_Tac_ToeUITests.swift; sourceTree = "<group>"; };
 		A514CE52249BF3AE00CC651D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A561365724F6DE5400319DD3 /* board.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = board.png; sourceTree = "<group>"; };
+		A561365824F6DE5400319DD3 /* cross.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cross.png; sourceTree = "<group>"; };
+		A561365924F6DE5400319DD3 /* nought.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nought.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +112,9 @@
 				A514CE37249BF3AE00CC651D /* Assets.xcassets */,
 				A514CE39249BF3AE00CC651D /* LaunchScreen.storyboard */,
 				A514CE3C249BF3AE00CC651D /* Info.plist */,
+				A561365724F6DE5400319DD3 /* board.png */,
+				A561365824F6DE5400319DD3 /* cross.png */,
+				A561365924F6DE5400319DD3 /* nought.png */,
 			);
 			path = "Tic Tac Toe";
 			sourceTree = "<group>";
@@ -232,6 +241,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A561365B24F6DE5400319DD3 /* cross.png in Resources */,
+				A561365A24F6DE5400319DD3 /* board.png in Resources */,
+				A561365C24F6DE5400319DD3 /* nought.png in Resources */,
 				A514CE3B249BF3AE00CC651D /* LaunchScreen.storyboard in Resources */,
 				A514CE38249BF3AE00CC651D /* Assets.xcassets in Resources */,
 				A514CE36249BF3A800CC651D /* Main.storyboard in Resources */,
@@ -435,6 +447,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XUL4R3FCTQ;
 				INFOPLIST_FILE = "Tic Tac Toe/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -452,6 +465,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XUL4R3FCTQ;
 				INFOPLIST_FILE = "Tic Tac Toe/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
